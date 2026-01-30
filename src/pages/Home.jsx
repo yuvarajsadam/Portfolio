@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { FaGithub, FaLinkedin, FaFileDownload } from 'react-icons/fa';
+import img1 from "../assets/img1.jpg";
 
 const Home = () => {
   return (
@@ -61,7 +62,7 @@ const Home = () => {
           transition={{ duration: 0.8 }}
         >
            <div className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full bg-gradient-to-br from-indigo-100 to-gray-100 border-8 border-white shadow-2xl flex justify-center items-center overflow-hidden">
-              <div className="text-6xl font-bold text-accent opacity-95 "><img src="src/assets/img1.jpg" alt="photo" /></div>
+              <div className="text-6xl font-bold text-accent opacity-95 "><img src={img1} alt="photo" /></div>
            </div>
         </motion.div>
       </div>
